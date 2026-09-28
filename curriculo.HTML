@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+<body>
+    <header>
+    <h1> Lorena Oliveira - Desenvolvedora WEB</h1>
+    <nav>
+<!-- Colocar um indíce -->
+ <ul style="list-style-type: disc;" >
+    <nav>
+    <li><a href="#Sobre">Sobre</a></li>
+    <li><a href="#Projetos">Projetos</a></li>
+    <li><a href="#Contato">Contato</a> </li>
+ </ul>
+ </nav>
+ </header>
+ <hr>
+
+<!-- Imagem da pessoa que está fazendo o currículo -->
+
+<section id="Sobre">
+ <h2>Sobre Mim</h2>
+ <img src="imagens/Design sem nome.png" alt="sobre mim"
+  style="max-width: 13%;">
+  <p> Sou estudante de<strong> Desenvolvimento de Sistemas</strong> no SENAI.</p>
+  <p> Tenho conhecimento em <em> HTML,CSS</em> e estou aprendendo<em> JavaScript.</em></p>
+  <h2> Minhas Habilidades:</h2>
+  <ul style="list-style-type: disc;">
+    <li>HTML5 Semântico </li>
+    <li>CSS3 e Responsividade</li>
+    <li>Formulários e Validação</li>
+    <li>Estrturação de Dados</li>
+  </ul>
+<hr>
+</section>
+<!-- Meus Projetos -->
+ <section id="Projetos"></section>
+ <h2>Meus Projetos</h2>
+ <table border="1"
+ cellpadding="10"
+ cellspacing="0">
+ <thead>
+    <tr>
+        <th> Projeto</th>
+        <th> Tecnologias</th>
+        <th> Status</th>
+        <th> Links</th>
+    </tr>
+ </thead>
+ <body>
+    <tr>
+        <td> Sistemas de chamados</td>
+      <td>HTML,CSS</td>
+      <td> Concluido</td>
+      <td> <a href="#verprojeto">Ver Projeto</a></td>
+    </tr>
+    <tr>
+        <td> Loja Smart Watch</td>
+        <td> HTML, CSS, JavaScript</td>
+        <td> Concluido</td>
+        <td> <a href="#verprojeto"> Ver Projeto</a></td>
+    </tr>
+    <tr>
+        <td>Jogo Space Invaders</td>
+        <td>HTML,CSS, JavaScript</td>
+        <td>Em Andamento</td>
+        <td> <a href="#verprojeto">Ver Projeto</a></td>
+    </tr>
+ </body>
+ </table>
+ </section>
+<section id="Contato">
+ <h2>Entre em Contato</h2>
+ <form>
+    <fieldset>
+     <legend> Dados do Contato</legend>
+   
+ <label for="nome">Nome:</label><br>
+ <input type="text" id="nome" name="nome" required><br><br>
+
+ <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="">Oportunidade de Trabalho</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="7" cols="30"></textarea><br><br>
+        
+        <button type="submit">Enviar Mensagem</button>
+
+</form>
+</fieldset>
+
+<footer>
+  <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+  
+  <hr>
+  
+  <p>
+    <a href="lorena:lorena.oliveira@outlook.com">lorena.oliveira@outlook.com</a> | 
+    <a href="tel:11953662360">(11) 95366-2360</a>
+  </p>
+</footer>
+</section>
+
+   
+
+
+
+    
+</body>
+</html>
